@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.App {
+  background-color: #282c34;
+  
+}
+
+.App-header{
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+  120deg,
+  hsl(270deg 100% 7%) 0%,
+  hsl(202deg 46% 30%) 39%,
+  hsl(177deg 23% 57%) 61%,
+  hsl(104deg 100% 95%) 100%
+);
+}
