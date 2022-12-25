@@ -30,3 +30,13 @@ code {
   hsl(104deg 100% 95%) 100%
 );
 }
+
+.header h1 {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 1300px;
+}
