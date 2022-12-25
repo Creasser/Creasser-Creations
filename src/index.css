@@ -14,7 +14,7 @@ code {
 
 
 .App {
-  background-color: #282c34;
+  background-color: #efe9f4;
   
 }
 
@@ -22,21 +22,61 @@ code {
   color: white;
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(
-  120deg,
-  hsl(270deg 100% 7%) 0%,
-  hsl(202deg 46% 30%) 39%,
-  hsl(177deg 23% 57%) 61%,
-  hsl(104deg 100% 95%) 100%
-);
+  background-color: #171d1c;
 }
 
 .header h1 {
   flex: 1;
+  background-image: linear-gradient(
+  180deg,
+  hsl(203deg 93% 67%) 0%,
+  hsl(199deg 83% 64%) 10%,
+  hsl(196deg 75% 60%) 20%,
+  hsl(192deg 69% 55%) 30%,
+  hsl(188deg 63% 50%) 40%,
+  hsl(184deg 80% 43%) 50%,
+  hsl(187deg 51% 62%) 60%,
+  hsl(190deg 46% 72%) 70%,
+  hsl(196deg 42% 81%) 80%,
+  hsl(211deg 35% 88%) 90%,
+  hsl(273deg 33% 94%) 100%
+);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .header {
   display: flex;
   align-items: center;
   width: 1300px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-links {
+  border: solid white;
+  margin: 20px;
+  padding: 7px;
+  border-radius: 15px;
+}
+
+.header-links:hover{
+  color: black;
+  background-image: linear-gradient(
+  180deg,
+  hsl(203deg 93% 67%) 0%,
+  hsl(199deg 83% 64%) 10%,
+  hsl(196deg 75% 60%) 20%,
+  hsl(192deg 69% 55%) 30%,
+  hsl(188deg 63% 50%) 40%,
+  hsl(184deg 80% 43%) 50%,
+  hsl(187deg 51% 62%) 60%,
+  hsl(190deg 46% 72%) 70%,
+  hsl(196deg 42% 81%) 80%,
+  hsl(211deg 35% 88%) 90%,
+  hsl(273deg 33% 94%) 100%
+);
 }
