@@ -1,7 +1,21 @@
 import React from "react"; 
+import techData from "../techData";
 
 function TechnologiesList(){
-    return 
+
+    const techElements = techData.map((tech) => {
+        return (
+            <div className="technology">
+                <h1>{tech.name}</h1>
+                <h4>{tech.experience}</h4>
+            </div>
+        )
+    })
+
+    return (
+        <div className="technologiesList">{techElements}</div>
+        
+    )
 }
 
 export default TechnologiesList
