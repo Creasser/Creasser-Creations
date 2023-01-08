@@ -9,7 +9,10 @@ function App() {
       <header className="App-header">
         <Header />
       </header>
+      <div>
         <TechnologiesList />
+        </div>
+        
     </div>
   );
 }
